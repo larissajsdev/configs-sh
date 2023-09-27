@@ -54,5 +54,6 @@ asdf plugin-add nodejs
 asdf install nodejs 18.18.0
 asdf global nodejs 18.18.0
 
+echo "olá"
 # exit
 echo "-> asdf successfully installed (="
