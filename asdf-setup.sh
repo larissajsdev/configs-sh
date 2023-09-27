@@ -49,10 +49,10 @@ fi
 . "$ASDF_DIR/asdf.sh"
 
 # install latest nodejs
-echo "installing nodejs.."
+echo "-> installing nodejs.."
 asdf plugin-add nodejs
 asdf install nodejs 18.18.0
 asdf global nodejs 18.18.0
 
-# Saída
-echo "asdf successfully installed (="
+# exit
+echo "-> asdf successfully installed (="
