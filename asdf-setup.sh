@@ -20,4 +20,4 @@ fi
 
 . "$ASDF_DIR/asdf.sh"
 
-echo "-> asdf successfully installed (="
+echo "-> asdf successfully installed"
