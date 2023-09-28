@@ -4,7 +4,7 @@ ASDF_DIR="$HOME/.asdf"
 if [ -d "$ASDF_DIR" ]; then
     echo "-> asdf are installed, skip..."
 else
-    git clone https://github.com/asdf-vm/asdf.git "$ASDF_DIR" --branch v0.13.1
+    git clone https://github.com/asdf-vm/asdf.git "$ASDF_DIR"
 
     # add asdf in zsh if not exists
     if ! grep -q "# asdf config" "$HOME/.zshrc"; then
